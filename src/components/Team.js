@@ -40,6 +40,7 @@ const socialIcons = {
     justifyContent: 'space-evenly',
     marginRight: '50px',
     marginTop: '-15px',
+
 }
 
 const Team = () => {
@@ -53,7 +54,7 @@ const Team = () => {
                         <p>Illustrator & Animator</p>
                         <ul style={socialIcons}>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="mailto:andy@hungrysandwich.club">
                                     <img src={A1Mail} alt="Mail-Icon" />
                                 </a>
                             </li>
@@ -78,7 +79,7 @@ const Team = () => {
                         <p>Web Designer & Developer</p>
                         <ul style={socialIcons}>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="mailto:martin@hungrysandwich.club">
                                     <img src={M1Mail} alt="Mail-Icon" />
                                 </a>
                             </li>
@@ -103,7 +104,7 @@ const Team = () => {
                         <p>Account Director</p>
                         <ul style={socialIcons}>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="mailto:hannah@hungrysandwich.club">
                                     <img src={H1Mail} alt="Mail-Icon" />
                                 </a>
                             </li>
@@ -118,7 +119,7 @@ const Team = () => {
                         <p>Animator</p>
                         <ul style={socialIcons}>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="mailto:george@hungrysandwich.club">
                                     <img src={G1Mail} alt="Mail-Icon" />
                                 </a>
                             </li>
@@ -138,17 +139,17 @@ const Team = () => {
                         <p>Web Developer</p>
                         <ul style={socialIcons}>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="mailto:danish@hungrysandwich.club">
                                     <img src={D1Mail} alt="Mail-Icon" />
                                 </a>
                             </li>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="twitter.com/danshafi">
                                     <img src={D1Twit} alt="Twitter-Icon" />
                                 </a>
                             </li>
                             <li className="socialIcons">
-                                <a href="google.com">
+                                <a href="github.com/danshafi">
                                     <img src={D1Git} alt="Github-Icon" />
                                 </a>
                             </li>
