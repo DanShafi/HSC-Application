@@ -15,4 +15,9 @@
 .team-head:hover {
   margin-top: -20px;
 }
+
+.socialIcons:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 /*# sourceMappingURL=App.css.map */
