@@ -1,6 +1,5 @@
 import React from "react"
 import { Row, Col, Container } from "react-bootstrap"
-import styled from "styled-components"
 
 import A1 from '../media/a1.png'
 import M1 from '../media/m1.png'
@@ -40,12 +39,27 @@ const socialIcons = {
     justifyContent: 'space-evenly',
     marginRight: '50px',
     marginTop: '-15px',
+}
 
+const teamTitle = {
+    textAlign: 'center',
+    fontFamily: 'Poppins',
+    fontWeight: '500',
+    textDecoration: 'underline'
+}
+
+const footerText = {
+    textAlign: 'center',
+    fontFamily: 'Poppins',
+    fontWeight: '500',
+    marginTop: '50px',
+    color: 'grey',
 }
 
 const Team = () => {
     return (
-        <Container>
+        <Container className="mb-5">
+            <p style={teamTitle}>The New HSC Team - Sep 2020</p>
             <Row>
                 <Col style={center}>
                     <img className="team-head" src={A1} style={imgHeight} alt="Team-Member-Head" />
@@ -157,6 +171,9 @@ const Team = () => {
                     </div>
                 </Col>
             </Row>
+            <p style={footerText}>
+             <a href="www.builtbydan.com">BuiltByDan.com</a>
+            </p>
         </Container>
     )
 }

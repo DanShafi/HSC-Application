@@ -4,25 +4,25 @@ import styled from "styled-components"
 
 // Image imports
 
-import Marketing from '../media/pr.svg'
+import Marketing from '../media/office_work_.svg'
 import Police from '../media/police.svg'
-import Developer from '../media/code_development_.svg'
-import LeWagon from '../media/lewagon.png'
+import Developer from '../media/coding_.svg'
 import TimelineSep from '../media/timeline-seperator.png'
 
-const HeroTitle = styled.h1`
-    font-size: 45px;
+const TimelineTitle = styled.h3`
+    font-size: 30px;
     font-family: Poppins;
     font-weight: 700;
     color: #30d4ff;
     letter-spacing: 0.02em;
     line-height: 1.1em;
 `
-const HeroAbout = styled.p`
-    font-size: 21px;
+
+const TimelineAbout = styled.p`
+    font-size: 18px;
     font-family: Poppins;
     font-weight: 500;
-    color: grey;
+    color: black;
 `
 const Divider = {
     position: 'relative',
@@ -45,19 +45,19 @@ const Timeline = () => {
                 </Col>
                 <Col lg={5}>
                     <p className="text-muted">2014-2018</p>
-                    <HeroTitle>
-                        Humble beginnings in marketing.
-                    </HeroTitle>
-                    <HeroAbout>
-                        We tell stories. We build experiences. We explore all the ways 
-                        design can make us smile, scream, sing and think, understand and care. 
-                        We are interested in the whole journey. The big questions. 
-                        The tiny details. The unexpected things along the way.
-                        <br/><br/>
-                        If you have a project or an idea in mind, 
-                        say hello or call us +44 (0) 7972096337, 
-                        and let’s see where it takes us.
-                    </HeroAbout>
+                    <TimelineTitle>
+                        Humble beginnings in advertising.
+                    </TimelineTitle>
+                    <TimelineAbout>
+                        Shortly after graduating from the University of Greenwich,
+                        I joined Publicis Media as a Graduate Account Executive, where
+                        I would begin my career in advertising.
+                        <br />
+                        <br />
+                        After moving from agency-to-agency, bringing experience from
+                        top clients like BMW, Mercedes-Benz and Tesco, I ended my 5-yearish
+                        stint in advertising as a Digital Account Manager at MediaCom.
+                    </TimelineAbout>
                 </Col>
                 <img src={TimelineSep} style={Divider}/>
             </Row>
@@ -65,19 +65,21 @@ const Timeline = () => {
             <Row>
                 <Col lg={6} lg={{order: 'first' }} xs={{ order: 'last' }}>
                     <p className="text-muted">2011-2019</p>
-                    <HeroTitle>
-                        Serving the community, one Bobby at a time.
-                    </HeroTitle>
-                    <HeroAbout>
-                        We tell stories. We build experiences. We explore all the ways 
-                        design can make us smile, scream, sing and think, understand and care. 
-                        We are interested in the whole journey. The big questions. 
-                        The tiny details. The unexpected things along the way.
+                    <TimelineTitle>
+                        'Allo, 'Allo, what's this then?
+                    </TimelineTitle>
+                    <TimelineAbout>
+                        At 17 years old, I decided to join the Metropolitan Police Service
+                        as as voluntary officer (known better as a Special Constable).
+                        In 2018, I was offered a direct graduate entry scheme role as a Police Officer.
                         <br/><br/>
-                        If you have a project or an idea in mind, 
-                        say hello or call us +44 (0) 7972096337, 
-                        and let’s see where it takes us.
-                    </HeroAbout>
+                        I oversaw the digital reporting within my response team and local borough clusters. This role would have eventually
+                        led to an Inspectorate role in the Cybercrime division but due to Government
+                        cuts, the role ceased to exist. 
+                        <br />
+                        <br />
+                        With that, I left the force for pastures new.
+                    </TimelineAbout>
                 </Col>
                 <Col lg={6}>
                     <img src={Police} />
@@ -88,23 +90,21 @@ const Timeline = () => {
             <Row>
                 <Col lg={7}>
                     <img src={Developer} />
-                    <img src={LeWagon} style={{height: '100px'}} />
                 </Col>
                 <Col lg={5}>
                     <p className="text-muted">2019 - Present</p>
-                    <HeroTitle>
-                        Humble beginnings in marketing.
-                    </HeroTitle>
-                    <HeroAbout>
-                        We tell stories. We build experiences. We explore all the ways 
-                        design can make us smile, scream, sing and think, understand and care. 
-                        We are interested in the whole journey. The big questions. 
-                        The tiny details. The unexpected things along the way.
+                    <TimelineTitle>
+                        Follow the Red Wagon.
+                    </TimelineTitle>
+                    <TimelineAbout>
+                        After much deliberation, I decided to enlist into Le Wagon - an intensive 9-week full stack
+                        web development bootcamp focussing on building web applications with Ruby on Rails.
                         <br/><br/>
-                        If you have a project or an idea in mind, 
-                        say hello or call us +44 (0) 7972096337, 
-                        and let’s see where it takes us.
-                    </HeroAbout>
+                        This is when I realised that front-end web development is where my passion lies,
+                        playing to my strengths from previous experience(s). Post-graduation, I undertook
+                        an internship with the News UK Web Team and decided 
+                        to focus on learning JavaScript and React independently.
+                    </TimelineAbout>
                 </Col>
             </Row>
         </Container>

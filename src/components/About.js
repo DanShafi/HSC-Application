@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap"
 import styled from "styled-components"
 
 const HeroTitle = styled.h1`
-    font-size: 45px;
+    font-size: 40px;
     font-family: Poppins;
     font-weight: 700;
     color: #30d4ff;
@@ -19,9 +19,9 @@ const HeroAbout = styled.p`
 
 const About = () => {
     return (
-        <Container>
+        <Container className="mb-5 mt-5 pt-5 pb-5">
             <Row>
-                <Col lg={7}>
+                <Col lg={7} className="mb-5">
                     <HeroTitle>Hello, I'm Dan.<br/>I'm a 
                         creative person specialising in front end
                         web development and design.
@@ -33,10 +33,6 @@ const About = () => {
                         design can make us smile, scream, sing and think, understand and care. 
                         We are interested in the whole journey. The big questions. 
                         The tiny details. The unexpected things along the way.
-                        <br/><br/>
-                        If you have a project or an idea in mind, 
-                        say hello or call us +44 (0) 7972096337, 
-                        and let’s see where it takes us.
                     </HeroAbout>
                 </Col>
             </Row>

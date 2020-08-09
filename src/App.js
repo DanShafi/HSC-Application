@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Timeline from './components/Timeline'
-import Stack from './components/Stack'
+import Hire from './components/Hire'
 import Team from './components/Team'
 import './App.scss';
 
@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <About />
       <Timeline />
-      <Stack />
+      <Hire />
       <Team />
     </div>
   );

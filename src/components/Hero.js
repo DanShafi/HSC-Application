@@ -20,10 +20,10 @@ const Hero = () => {
     return (
         <Container>
             <Space>
-                <img src={Stars1} style={{position: 'absolute'}} />
-                <img src={Stars2} style={{position: 'absolute'}} />
-                <img src={Spaceman} className='SpacemanStyle' />
-                <img src={Planets} className='PlanetStyle' />
+                <img src={Stars1} style={{position: 'absolute'}} className='anim-1' />
+                <img src={Stars2} style={{position: 'absolute'}} className='anim-2' />
+                <img src={Spaceman} className='spaceman-style spaceman-anim' />
+                <img src={Planets} className='planet-style' />
             </Space>
         </Container>
     )
