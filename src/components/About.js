@@ -29,7 +29,7 @@ const About = () => {
                 </Col>
                 <Col lg={5}>
                     <HeroAbout>
-                        We tell stories. We build experiences. We explore all the ways 
+                        This is a test. We build experiences. We explore all the ways 
                         design can make us smile, scream, sing and think, understand and care. 
                         We are interested in the whole journey. The big questions. 
                         The tiny details. The unexpected things along the way.
