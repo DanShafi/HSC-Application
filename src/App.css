@@ -1,3 +1,7 @@
+.app {
+  max-width: 1440px;
+}
+
 .hsc-logo {
   max-height: 23px;
 }
@@ -19,5 +23,28 @@
 .socialIcons:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.SpacemanStyle {
+  position: relative;
+  height: 300px;
+  left: 400px;
+  top: 100px;
+}
+
+@media (max-width: 992px) {
+  .SpacemanStyle {
+    position: relative;
+    left: 180px;
+    z-index: 1;
+  }
+  .PlanetStyle {
+    position: relative;
+    right: 50px;
+    bottom: 200px;
+    z-index: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
 }
 /*# sourceMappingURL=App.css.map */

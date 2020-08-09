@@ -2,44 +2,29 @@ import React from "react"
 import { Row, Col, Container } from "react-bootstrap"
 import styled from "styled-components"
 
-const HeroTitle = styled.h1`
-    font-size: 45px;
-    font-family: Poppins;
-    font-weight: 700;
-    color: #30d4ff;
-    letter-spacing: 0.02em;
-    line-height: 1.1em;
-`
-const HeroAbout = styled.p`
-    font-size: 21px;
-    font-family: Poppins;
-    font-weight: 500;
-    color: grey;
+// Images
+
+import Stars1 from '../media/stars1.png'
+import Stars2 from '../media/stars2.png'
+import Spaceman from '../media/spaceman.svg'
+import Planets from '../media/Planets.svg'
+
+
+const Space = styled.div`
+height: 500px;
+background-color: #121212;
+position: relative;
 `
 
 const Hero = () => {
     return (
         <Container>
-            <Row>
-                <Col lg={7}>
-                    <HeroTitle>Hello, I'm Dan.<br/>I'm a 
-                        creative person specialising in front end
-                        web development and design.
-                    </HeroTitle>
-                </Col>
-                <Col lg={5}>
-                    <HeroAbout>
-                        We tell stories. We build experiences. We explore all the ways 
-                        design can make us smile, scream, sing and think, understand and care. 
-                        We are interested in the whole journey. The big questions. 
-                        The tiny details. The unexpected things along the way.
-                        <br/><br/>
-                        If you have a project or an idea in mind, 
-                        say hello or call us +44 (0) 7972096337, 
-                        and let’s see where it takes us.
-                    </HeroAbout>
-                </Col>
-            </Row>
+            <Space>
+                <img src={Stars1} style={{position: 'absolute'}} />
+                <img src={Stars2} style={{position: 'absolute'}} />
+                <img src={Spaceman} className='SpacemanStyle' />
+                <img src={Planets} className='PlanetStyle' />
+            </Space>
         </Container>
     )
 }
