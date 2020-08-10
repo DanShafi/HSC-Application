@@ -158,12 +158,12 @@ const Team = () => {
                                 </a>
                             </li>
                             <li className="socialIcons">
-                                <a href="twitter.com/danshafi">
+                                <a href="http://twitter.com/danshafi">
                                     <img src={D1Twit} alt="Twitter-Icon" />
                                 </a>
                             </li>
                             <li className="socialIcons">
-                                <a href="github.com/danshafi">
+                                <a href="http://github.com/danshafi">
                                     <img src={D1Git} alt="Github-Icon" />
                                 </a>
                             </li>
@@ -172,7 +172,9 @@ const Team = () => {
                 </Col>
             </Row>
             <p style={footerText}>
-             <a href="www.builtbydan.com">BuiltByDan.com</a>
+                Thank you for taking your time to review my application. I look forward to hearing from you soon.
+                <br />
+             <a href="https://builtbydan.vercel.app" target="_blank">BuiltByDan.com</a>
             </p>
         </Container>
     )

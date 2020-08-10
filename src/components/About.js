@@ -29,10 +29,10 @@ const About = () => {
                 </Col>
                 <Col lg={5}>
                     <HeroAbout>
-                        This is a test. We build experiences. We explore all the ways 
-                        design can make us smile, scream, sing and think, understand and care. 
-                        We are interested in the whole journey. The big questions. 
-                        The tiny details. The unexpected things along the way.
+                        I build experiences. I explore all the ways that design can
+                        make you think, wonder, imagine and inspire. User experience is a core part
+                        of my development ethos - every decision must serve the end-client purpose, with
+                        design and code in a symphony of pixel perfection.
                     </HeroAbout>
                 </Col>
             </Row>
